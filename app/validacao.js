@@ -15,7 +15,6 @@ function verificaSeOChuteValido (chute) {
 
             elementoChute.innerHTML += '<div>Valor Inválido</div>';
         }
-    }
         return
     }
 
@@ -38,7 +37,7 @@ function verificaSeOChuteValido (chute) {
     } else {
         `<div> O número secreto é maior <i class="fa-solid fa-arrow-up"></i></div>`
     }
-}
+
 
 function chuteForInvalido(numero) {
     return Number.isNaN(numero);
